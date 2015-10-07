@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+		<style>
+			#map{
+				width: 100%;
+				height: 100%;
+			};
+			body{
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			};
+
+			#qc{
+				polygon-fill: #FFFFB2;
+        		polygon-opacity: 0.8;
+        		line-color: #FFF;
+        		line-width: 0.5;
+		        line-opacity: 1;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="map">
+		</div>
+
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+    	<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    	<script type="text/javascript" src="map-style.js"></script>
+    	<script type="text/javascript" src="map.js"></script>
+	</body>
+</html>
